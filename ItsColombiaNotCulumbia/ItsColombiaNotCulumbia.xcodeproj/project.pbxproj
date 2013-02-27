@@ -20,6 +20,8 @@
 		63C5EC0316DD503700167EAA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C5EC0116DD503700167EAA /* MainStoryboard_iPad.storyboard */; };
 		63C5EC0616DD503700167EAA /* ZMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5EC0516DD503700167EAA /* ZMViewController.m */; };
 		63C5EC0E16DD756200167EAA /* ZMViewControllerFlipSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5EC0D16DD756200167EAA /* ZMViewControllerFlipSide.m */; };
+		63C5EC1016DE64E800167EAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C5EC0F16DE64E800167EAA /* QuartzCore.framework */; };
+		63C5EC1316DE672200167EAA /* ZMViewControllerCardPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5EC1216DE672200167EAA /* ZMViewControllerCardPreview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		63C5EC0516DD503700167EAA /* ZMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMViewController.m; sourceTree = "<group>"; };
 		63C5EC0C16DD756200167EAA /* ZMViewControllerFlipSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMViewControllerFlipSide.h; sourceTree = "<group>"; };
 		63C5EC0D16DD756200167EAA /* ZMViewControllerFlipSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMViewControllerFlipSide.m; sourceTree = "<group>"; };
+		63C5EC0F16DE64E800167EAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63C5EC1116DE672200167EAA /* ZMViewControllerCardPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMViewControllerCardPreview.h; sourceTree = "<group>"; };
+		63C5EC1216DE672200167EAA /* ZMViewControllerCardPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMViewControllerCardPreview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C5EC1016DE64E800167EAA /* QuartzCore.framework in Frameworks */,
 				63C5EBE716DD503700167EAA /* UIKit.framework in Frameworks */,
 				63C5EBE916DD503700167EAA /* Foundation.framework in Frameworks */,
 				63C5EBEB16DD503700167EAA /* CoreGraphics.framework in Frameworks */,
@@ -61,6 +67,7 @@
 		63C5EBDA16DD503700167EAA = {
 			isa = PBXGroup;
 			children = (
+				63C5EC0F16DE64E800167EAA /* QuartzCore.framework */,
 				63C5EBEC16DD503700167EAA /* ItsColombiaNotCulumbia */,
 				63C5EBE516DD503700167EAA /* Frameworks */,
 				63C5EBE416DD503700167EAA /* Products */,
@@ -97,6 +104,8 @@
 				63C5EC0516DD503700167EAA /* ZMViewController.m */,
 				63C5EC0C16DD756200167EAA /* ZMViewControllerFlipSide.h */,
 				63C5EC0D16DD756200167EAA /* ZMViewControllerFlipSide.m */,
+				63C5EC1116DE672200167EAA /* ZMViewControllerCardPreview.h */,
+				63C5EC1216DE672200167EAA /* ZMViewControllerCardPreview.m */,
 			);
 			path = ItsColombiaNotCulumbia;
 			sourceTree = "<group>";
@@ -187,6 +196,7 @@
 				63C5EBF716DD503700167EAA /* ZMAppDelegate.m in Sources */,
 				63C5EC0616DD503700167EAA /* ZMViewController.m in Sources */,
 				63C5EC0E16DD756200167EAA /* ZMViewControllerFlipSide.m in Sources */,
+				63C5EC1316DE672200167EAA /* ZMViewControllerCardPreview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

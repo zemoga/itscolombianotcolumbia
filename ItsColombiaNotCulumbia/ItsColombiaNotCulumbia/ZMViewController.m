@@ -45,6 +45,7 @@
     self.image.contentMode = UIViewContentModeScaleAspectFit;
     self.image.image = image;
     [picker dismissViewControllerAnimated:YES completion:nil];
+    self.btnDone.hidden = NO;
 }
 
 

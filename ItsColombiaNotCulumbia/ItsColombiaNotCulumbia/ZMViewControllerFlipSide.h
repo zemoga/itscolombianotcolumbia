@@ -10,7 +10,8 @@
 #import "ZMViewController.h"
 
 @interface ZMViewControllerFlipSide : UIViewController
-@property (weak, nonatomic, setter=setImageOutlet:) UIImage *img;
+@property (weak, nonatomic) IBOutlet UIView *container;
+@property (weak, nonatomic) UIImage *img;
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) ZMViewController *mainController;
 @end
