@@ -22,6 +22,13 @@
 		63C5EC0E16DD756200167EAA /* ZMViewControllerFlipSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5EC0D16DD756200167EAA /* ZMViewControllerFlipSide.m */; };
 		63C5EC1016DE64E800167EAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C5EC0F16DE64E800167EAA /* QuartzCore.framework */; };
 		63C5EC1316DE672200167EAA /* ZMViewControllerCardPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5EC1216DE672200167EAA /* ZMViewControllerCardPreview.m */; };
+		63C5EC1516DFB5F900167EAA /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C5EC1416DFB5F900167EAA /* FacebookSDK.framework */; };
+		63C5EC1716DFB66E00167EAA /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63C5EC1616DFB66E00167EAA /* FacebookSDKResources.bundle */; };
+		63C5EC1916DFB73600167EAA /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63C5EC1816DFB73600167EAA /* FBUserSettingsViewResources.bundle */; };
+		63C5EC1C16DFB78000167EAA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C5EC1A16DFB78000167EAA /* Accounts.framework */; };
+		63C5EC1D16DFB78000167EAA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C5EC1B16DFB78000167EAA /* AdSupport.framework */; };
+		63C5EC1F16DFB7A500167EAA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C5EC1E16DFB7A500167EAA /* Social.framework */; };
+		63C5EC2216DFBF2C00167EAA /* ZMViewControllerLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5EC2116DFBF2B00167EAA /* ZMViewControllerLogin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +54,14 @@
 		63C5EC0F16DE64E800167EAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		63C5EC1116DE672200167EAA /* ZMViewControllerCardPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMViewControllerCardPreview.h; sourceTree = "<group>"; };
 		63C5EC1216DE672200167EAA /* ZMViewControllerCardPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMViewControllerCardPreview.m; sourceTree = "<group>"; };
+		63C5EC1416DFB5F900167EAA /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		63C5EC1616DFB66E00167EAA /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../../FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		63C5EC1816DFB73600167EAA /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../../../FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		63C5EC1A16DFB78000167EAA /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		63C5EC1B16DFB78000167EAA /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		63C5EC1E16DFB7A500167EAA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		63C5EC2016DFBF2B00167EAA /* ZMViewControllerLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMViewControllerLogin.h; sourceTree = "<group>"; };
+		63C5EC2116DFBF2B00167EAA /* ZMViewControllerLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMViewControllerLogin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +69,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C5EC1F16DFB7A500167EAA /* Social.framework in Frameworks */,
+				63C5EC1C16DFB78000167EAA /* Accounts.framework in Frameworks */,
+				63C5EC1D16DFB78000167EAA /* AdSupport.framework in Frameworks */,
 				63C5EC1016DE64E800167EAA /* QuartzCore.framework in Frameworks */,
 				63C5EBE716DD503700167EAA /* UIKit.framework in Frameworks */,
 				63C5EBE916DD503700167EAA /* Foundation.framework in Frameworks */,
 				63C5EBEB16DD503700167EAA /* CoreGraphics.framework in Frameworks */,
+				63C5EC1516DFB5F900167EAA /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +86,6 @@
 		63C5EBDA16DD503700167EAA = {
 			isa = PBXGroup;
 			children = (
-				63C5EC0F16DE64E800167EAA /* QuartzCore.framework */,
 				63C5EBEC16DD503700167EAA /* ItsColombiaNotCulumbia */,
 				63C5EBE516DD503700167EAA /* Frameworks */,
 				63C5EBE416DD503700167EAA /* Products */,
@@ -85,6 +103,13 @@
 		63C5EBE516DD503700167EAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63C5EC1E16DFB7A500167EAA /* Social.framework */,
+				63C5EC1A16DFB78000167EAA /* Accounts.framework */,
+				63C5EC1B16DFB78000167EAA /* AdSupport.framework */,
+				63C5EC0F16DE64E800167EAA /* QuartzCore.framework */,
+				63C5EC1816DFB73600167EAA /* FBUserSettingsViewResources.bundle */,
+				63C5EC1616DFB66E00167EAA /* FacebookSDKResources.bundle */,
+				63C5EC1416DFB5F900167EAA /* FacebookSDK.framework */,
 				63C5EBE616DD503700167EAA /* UIKit.framework */,
 				63C5EBE816DD503700167EAA /* Foundation.framework */,
 				63C5EBEA16DD503700167EAA /* CoreGraphics.framework */,
@@ -106,6 +131,8 @@
 				63C5EC0D16DD756200167EAA /* ZMViewControllerFlipSide.m */,
 				63C5EC1116DE672200167EAA /* ZMViewControllerCardPreview.h */,
 				63C5EC1216DE672200167EAA /* ZMViewControllerCardPreview.m */,
+				63C5EC2016DFBF2B00167EAA /* ZMViewControllerLogin.h */,
+				63C5EC2116DFBF2B00167EAA /* ZMViewControllerLogin.m */,
 			);
 			path = ItsColombiaNotCulumbia;
 			sourceTree = "<group>";
@@ -182,6 +209,8 @@
 				63C5EBFD16DD503700167EAA /* Default-568h@2x.png in Resources */,
 				63C5EC0016DD503700167EAA /* MainStoryboard_iPhone.storyboard in Resources */,
 				63C5EC0316DD503700167EAA /* MainStoryboard_iPad.storyboard in Resources */,
+				63C5EC1716DFB66E00167EAA /* FacebookSDKResources.bundle in Resources */,
+				63C5EC1916DFB73600167EAA /* FBUserSettingsViewResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +226,7 @@
 				63C5EC0616DD503700167EAA /* ZMViewController.m in Sources */,
 				63C5EC0E16DD756200167EAA /* ZMViewControllerFlipSide.m in Sources */,
 				63C5EC1316DE672200167EAA /* ZMViewControllerCardPreview.m in Sources */,
+				63C5EC2216DFBF2C00167EAA /* ZMViewControllerLogin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,10 +321,19 @@
 		63C5EC0A16DD503700167EAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ItsColombiaNotCulumbia/ItsColombiaNotCulumbia-Prefix.pch";
 				INFOPLIST_FILE = "ItsColombiaNotCulumbia/ItsColombiaNotCulumbia-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -302,10 +341,19 @@
 		63C5EC0B16DD503700167EAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ItsColombiaNotCulumbia/ItsColombiaNotCulumbia-Prefix.pch";
 				INFOPLIST_FILE = "ItsColombiaNotCulumbia/ItsColombiaNotCulumbia-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

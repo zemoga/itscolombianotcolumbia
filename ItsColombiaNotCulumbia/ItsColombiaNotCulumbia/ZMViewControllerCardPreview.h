@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "ZMViewControllerFlipSide.h"
+#import <FacebookSDK/FacebookSDK.h>
 
-@interface ZMViewControllerCardPreview : UIViewController
+
+@interface ZMViewControllerCardPreview : UIViewController <FBLoginViewDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) UIImage *img;
 @property (weak, nonatomic) ZMViewControllerFlipSide *mainController;
+@property (weak, nonatomic) IBOutlet UIButton *btnPublishOnFacebook;
+@property (strong, nonatomic) id<FBGraphUser> loggedInUser;
 @end
