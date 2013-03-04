@@ -21,7 +21,7 @@
 -(void) loadFaceBookButton
 {
     self.loginview = [[FBLoginView alloc] init];
-    self.loginview.frame = CGRectOffset(self.loginview.frame, 5, 5);
+    self.loginview.frame = CGRectOffset(self.loginview.frame, 160, 50);
     self.loginview.delegate = self;
     [self.viewFooter addSubview:self.loginview];
     [self.loginview sizeToFit];

@@ -28,7 +28,11 @@
 
 - (IBAction)publishOnFacebook:(id)sender
 {
-    [self postPhotoToFaceBook:self.image.image];
+    if (FBSession.activeSession.isOpen){
+        [self postPhotoToFaceBook:self.image.image];
+    } else {
+        [self performSegueWithIdentifier:@"loginSegue" sender:sender];
+    }
 }
 
 - (void)loginViewFetchedUserInfo:(FBLoginView *)loginView user:(id<FBGraphUser>)user
